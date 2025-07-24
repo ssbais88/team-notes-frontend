@@ -23,16 +23,6 @@ This is the **frontend** of the Team Notes Manager application, built using **Re
 
 ---
 
-## 📁 Folder Structure
-src/
-├── components/ # Reusable components (NoteForm, NoteList)
-├── api.js # API helper functions (GET, POST, PUT, DELETE)
-├── App.jsx # Main app logic and layout
-├── main.jsx # Entry point
-├── index.css # Global styles (minimal)
-
----
-
 ### 1. Clone the Repository
 
 ```bash
