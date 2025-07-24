@@ -1,12 +1,40 @@
-# React + Vite
+# 📝 Team Notes Manager – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the Team Notes Manager application, built using **React**, **Vite**, and styled with **Bootstrap 5**. It connects to a backend API for managing team notes (CRUD operations).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (with Vite)
+- **Bootstrap 5**
+- **Axios** for HTTP requests
+- **PropTypes** for prop validation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Features
+
+- 📝 Add, edit, delete, and view notes
+- 📋 Note listing with timestamp
+- 🎯 Fully responsive and centered layout
+- ✅ Prop validation with `prop-types`
+- 🔗 Connects seamlessly to a MongoDB-powered backend
+
+---
+
+## 📁 Folder Structure
+src/
+├── components/ # Reusable components (NoteForm, NoteList)
+├── api.js # API helper functions (GET, POST, PUT, DELETE)
+├── App.jsx # Main app logic and layout
+├── main.jsx # Entry point
+├── index.css # Global styles (minimal)
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ssbais88/team-notes-frontend.git
+cd notes-frontend
